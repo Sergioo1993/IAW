@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act05</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var nombre;
+        var nota1;
+        var nota2;
+        var nota3;
+
+        nombre=prompt('Introduce su nombre:','');
+        nota1=prompt('Introduce la nota1:','');
+        nota2=prompt('Introduce la nota2:','');
+        nota3=prompt('Introduce la nota3:','');
+        media=(parseInt(nota1)+parseInt(nota2)+parseInt(nota3))/3;
+
+        if (media >=5){
+            document.write('Estas aprobado','<br>');
+            document.write('<br><br><br>');
+        }
+        else {
+            document.write('Estas suspendido');
+            document.write('<br><br><br>');
+        }
+
+
+        var email;
+        var email2;
+
+        email=prompt('Introduce un email:','');
+        email2=prompt('Introduce un email:','');
+
+        if (email == email2){
+            document.write('Los correos electronicos son iguales','<br>');
+            document.write('<br><br><br>');
+        }
+        else {
+            document.write('Los correos no son iguales');
+            document.write('<br><br><br>');
+        }
+
+
+        var edad;
+        var jubilado=65;
+        edad=prompt('Introduce tu edad:');
+
+        if (parseInt(edad) >=18 && edad <=jubilado){
+            document.write('Estas en edad de trabajar','<br>');
+            document.write('<br><br><br>');
+        }
+        else {
+            document.write('Disfruta de la vida no trabajes:')
+            document.write('<br><br><br>');
+        }
+
+
+
+        var numero;
+        numero=prompt('Introduce un numero:');
+
+        if (parseInt(numero)%2==0){
+            document.write('Es par');
+            document.write('<br><br><br>');
+        }
+        else {
+            document.write('Es impar');
+            document.write('<br><br><br>');
+        }
+    </script>
+</body>
+</html>

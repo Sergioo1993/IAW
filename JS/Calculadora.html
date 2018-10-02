@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function suma(a,b) {
+            return a+b;
+        }
+
+        function calculadora() {
+            var a = parseInt(document.getElementById("op1").value);
+            var b = parseInt(document.getElementById("op2").value);
+            var z = suma(a,b);
+            document.getElementById("resultado").innerHTML=z;
+        }
+        function reset() {
+            document.getElementById("op1").value=0;
+            document.getElementById("op2").value=0;
+            document.getElementById("resultado").innerHTML="";
+        }
+    </script>
+</head>
+<body>
+    operando1:
+    <input type="text" id="op1" value="0"/><br/>
+    operando2:
+    <input type="text" id="op2" value="0"/><br/>
+    <button onclick="calculadora()">suma</button>
+    <button onclick="reset()">reset</button>
+    <br/>
+    <p id="resultado"></p>
+</body>
+</html>
