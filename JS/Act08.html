@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act08</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var dia=prompt('Introduce un dia','');
+        var mes=prompt('Introduce un mes','');
+        var aio=prompt('Introduce un año','');
+
+        dia=parseInt(dia);
+        mes=parseInt(mes);
+        aio=parseInt(aio);
+
+        if (dia==25 && mes==12 && aio==2018){
+            document.write('Es navidad');
+            document.write('<br><br><br>');
+        }
+        else{
+            document.write('No es navidad');
+            document.write('<br><br><br>');
+        }
+
+
+        var num1=prompt('Introduce el numero 1');
+        var num2=prompt('Introduce el numero 2');
+        var num3=prompt('Introduce el numero 3');
+
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+        num3=parseInt(num3);
+
+        if (num1<10 && num2<10 && num3<10){
+            document.write('Todos los numeros son menores a 10');
+            document.write('<br><br><br>');
+        }
+        else {
+            document.write('Algun numero no es menor de 10');
+            document.write('<br><br><br>');
+        }
+
+        var x=prompt('Ingrese el valor de X');
+        var y=prompt('Ingrese el valor de Y');
+
+        x=parseInt(x);
+        y=parseInt(y);
+
+        if(x>0 && y>0){
+            document.write('Primer cuadrante');
+            document.write('<br><br><br>');
+        }
+        else if(x<0 && y>0){
+            document.write('Segundo cuadrante');
+            document.write('<br><br><br>');
+        }
+        else if (x<0 && y<0){
+            document.write('Tercer cuadrante');
+            document.write('<br><br><br>');
+        }
+        else{
+            document.write('Cuarto cuadrante');
+            document.write('<br><br><br>');
+        }
+
+        var sueldo=prompt('Ingrese el salario');
+        var aio=prompt('Introduce los años');
+        sueldo=parseInt(sueldo);
+        aio=parseInt(aio);
+        if (sueldo<500 && aio>=10){
+            document.write('El sueldo');
+            document.write('<br><br><br>');
+        }
+        else if (sueldo<500 && aio<10){
+            document.write('El sueldo es');
+            document.write('<br><br><br>');
+        }
+        else if (sueldo>500){
+            document.write('El sueldo es');
+            document.write('<br><br><br>');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba DOMS</title>
+</head>
+<body>
+    <h1>Lista de parrafos</h1>
+    <p>Parrafo A</p>
+    <p>Parrafo B</p>
+    <p>Parrafo C</p>
+    <p>Parrafo D</p>
+    <hr/>
+    <script>
+        var ps = document.getElementsByTagName("p");
+        var p0 = ps.item(0);
+        var p1 = ps.item(1);
+        var p2 = ps.item(2);
+        var p3 = ps.item(3);
+        var longitud = ps.length;
+
+        p2.style.backgroundColor="green";
+    </script>
+</body>
+</html>
