@@ -66,14 +66,16 @@
 
         var sueldo=prompt('Ingrese el salario');
         var aio=prompt('Introduce los años');
+
         sueldo=parseInt(sueldo);
         aio=parseInt(aio);
+
         if (sueldo<500 && aio>=10){
-            document.write('El sueldo');
+            document.write('El sueldo ahora es '+sueldo*1.2);
             document.write('<br><br><br>');
         }
         else if (sueldo<500 && aio<10){
-            document.write('El sueldo es');
+            document.write('El sueldo es '+sueldo*1.05);
             document.write('<br><br><br>');
         }
         else if (sueldo>500){
