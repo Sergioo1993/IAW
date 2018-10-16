@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de la compra</title>
+    <script>
+        function printList(){
+            var txt="";
+            for(var i=0; i<llistaCompra.length; i++){
+                txt = txt + "<li>" + llistaCompra[i]+ "</li>";
+            }
+            var u = document.getElementById("llista");
+            u.innerHTML = txt;
+        }
+        function afegirInici(){
+            var nou = document.getElementById("item").value;
+            llistaCompra.unshift(nou);
+            printList();
+        }
+        function AñadirFinal() {
+            var final = document.getElementById("item").value;
+            llistaCompra.push(final);
+            printList();
+        }
+        function QuitarPrimero() {
+            llistaCompra.shift();
+            printList();
+        }
+        function ultimo() {
+            llistaCompra.pop();
+            printList();
+        }
+        function ordena() {
+            llistaCompra.sort();
+            printList();
+        }
+        function ordena1() {
+            llistaCompra.sort();
+            llistaCompra.reverse();
+            printList();
+        }
+        function objeto(element) {
+            var p =llistaCompra.indexOf(element);
+            if (p != -1){
+                alert("Esta en la poscion" +p);
+            }
+            else
+            {alert("No esta en la lista");
+            }
+        }
+        function min (){
+            llistaCompra.minusculas();
+            printList();
+        }
+        function max (){
+            llistaCompra.mayusculas();
+            printList();
+        }
+
+        Array.prototype.minusculas=function () {
+            for (i=0;i<this.length;i++)
+            {
+                this[i]=this[i].toLowerCase();
+            }
+
+        }
+        Array.prototype.mayusculas=function () {
+            for (i=0;i<this.length;i++)
+
+            {
+                this[i]=this[i].toUpperCase();
+            }
+
+        }
+    </script>
+</head>
+<body>
+<h3>Shopping List</h3>
+<ul id="llista">
+</ul>
+<hr/>
+    ITEM:<input type="text" id="item" /><br/><br/>
+    <button onclick="afegirInici()">AFEGIR INICI</button>
+    <button onclick="AñadirFinal()">Añadir al final</button>
+    <button onclick="QuitarPrimero()">Quitar el primero</button>
+    <button onclick="ultimo()">Quitar el ultimo</button>
+    <button onclick="ordena()">Ordena Ascendente</button>
+    <button onclick="ordena1()">Ordena Descendiente</button>
+    <button onclick="objeto ('PATATAS')">¿Hay PATATAS?</button>
+    <button onclick="min()">Pasar a minusculas</button>
+    <button onclick="max()">Pasar a mayusculas</button>
+        <script>
+    var llistaCompra = new Array();
+    llistaCompra[0]="PATATAS";
+    llistaCompra[1]="MILK";
+    printList();
+
+        </script>
+
+</body>
+</html>
