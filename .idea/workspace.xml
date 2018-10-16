@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc72bc0-4f98-4e1a-99b3-7ffe990c2c3c" name="Default" comment="Act07">
-      <change afterPath="$PROJECT_DIR$/JS/Act10e.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Lista de la compra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/Act10d.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Act10d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/Act10e.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/Act10e.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,13 +50,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9420" />
+          <entry key="html" value="9756" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9420" />
+          <entry key="HTML" value="9756" />
           <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
@@ -130,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/Act10d.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -148,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS/Act10e.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="259">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -193,8 +190,8 @@
         <option value="$PROJECT_DIR$/JS/Act10c.html" />
         <option value="$PROJECT_DIR$/JS/Act10d.html" />
         <option value="$PROJECT_DIR$/JS/Act09.html" />
-        <option value="$PROJECT_DIR$/JS/Act10e.html" />
         <option value="$PROJECT_DIR$/JS/Lista de la compra.html" />
+        <option value="$PROJECT_DIR$/JS/Act10e.html" />
       </list>
     </option>
   </component>
@@ -205,8 +202,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="643" />
-    <option name="y" value="62" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -275,7 +271,7 @@
       <workItem from="1539074602562" duration="10583000" />
       <workItem from="1539277397403" duration="281000" />
       <workItem from="1539624702738" duration="5959000" />
-      <workItem from="1539708165865" duration="5663000" />
+      <workItem from="1539708165865" duration="7098000" />
     </task>
     <task id="LOCAL-00001" summary="Act01">
       <created>1538228594513</created>
@@ -316,7 +312,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48115000" />
+    <option name="totallyTimeSpent" value="49550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -484,17 +480,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/Act10e.html">
+    <entry file="file://$PROJECT_DIR$/JS/Act10d.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/Act10d.html">
+    <entry file="file://$PROJECT_DIR$/JS/Act10e.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="259">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>

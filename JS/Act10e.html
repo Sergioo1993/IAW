@@ -6,16 +6,23 @@
 </head>
 <body>
     <script type="text/javascript">
-        var al1;
-        var al1=prompt("Inroduce la nota del Alumno1:");
-
-        var al2;
-        var al2=prompt("Introduce la nota del Alumno2:");
-
-        var al3;
-        var al3=prompt("Introduce la nota del Alumno3:");
-
-
+        var cosa = parseInt(0);
+        var nota;
+        var aprobado = parseInt(0);
+        var suspendido = parseInt(0);
+        while (cosa < 10){
+            cosa = cosa +1;
+            nota =prompt("Introduce la nota");
+            if (nota >= parseInt(5)){
+                aprobado = aprobado + parseInt(1);
+            }
+            else if (nota <= parseInt(5)){
+                suspendido = suspendido + parseInt(1);
+            }
+        }
+        document.write("Han aprobado: "+aprobado);
+        document.write("<br>");
+        document.write("Han suspendido:"+suspendido);
 
     </script>
 </body>
