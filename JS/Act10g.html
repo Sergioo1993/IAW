@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Act10g</title>
 </head>
 <body>
+    <script type="text/javascript">
+        var x;
+        var sueldo=0;
+        var suma=0;
 
+        x=1;
+
+        while (x<=5){
+            sueldo =prompt("Introduzca su sueldo:");
+            sueldo=parseInt(sueldo);
+            suma=(sueldo+suma);
+            x ++;
+            if (sueldo>=500 && sueldo<=1000) {
+
+            }
+        }
+        document.write("Esta es la media:"," "+suma/5);
+        document.write("<br><br><br>");
+        document.write("Esta es la suma de los salarios:"," "+suma);
+    </script>
 </body>
 </html>
