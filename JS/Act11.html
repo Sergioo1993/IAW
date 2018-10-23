@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act11</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var num;
+        var sum;
+
+        sum=0;
+
+        do {
+
+            num=prompt('Introduce un numero ','');
+
+            num=parseInt(num);
+
+            if(num!=9999)
+                sum=(sum+num);
+
+        } while(num!=9999);
+
+        document.write('The sum of number is '+sum+'. ');
+
+            if (sum==0){
+
+                document.write('ZERO');
+
+            }
+
+            else if (sum>0){
+
+                    document.write('POSITIVE');
+
+            }
+
+            else {
+
+                    document.write('NEGATIVE');
+
+            }
+
+            document.write('<br>');
+
+
+
+
+
+</script>
+</body>
+</html>
