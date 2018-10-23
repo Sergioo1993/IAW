@@ -15,20 +15,21 @@
 
     while (x<=5) {
         num = prompt("INTRODUZCA UN NUMERO:");
-        num = parseInt(num)%2;
+        num = parseInt(num);
 
         x++;
-    }
-        if (num==0){
-            document.write("El numero PAR es: "+num+"");
-            par=par+1;
+
+        if (num % 2 == 0) {
+            document.write("El numero PAR es: " + num + "<br><br>");
+            par = par + 1;
         }
         else {
-            document.write("El numero IMPAR es: "+num+"");
-            imp=imp+1;
+            document.write("El numero IMPAR es: " + num + "<br><br>");
+            imp = imp + 1;
         }
+    }
         document.write("Pares:"+par+"");
-        document.write("<br>");
+        document.write("<br><br><br><br>");
         document.write("Impares: "+imp+"");
 </script>
 
