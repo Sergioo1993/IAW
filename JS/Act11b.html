@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act11b</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    var num;
+    var per;
+    var sex;
+    var edad;
+    var h=0;
+    var m=0;
+    var t=0;
+    var masvieja=0;
+    var masjoven=200;
+    var idjoven=0;
+
+    per=0;
+
+    do {
+
+        num=prompt('Introduce un numero de identificacion: ','');
+        num=parseInt(num);
+
+        if(num!=0) {
+            per = per + 1;
+            edad=prompt('Introduce tu edad: ','');
+            edad=parseInt(edad);
+            sex=prompt('Introduce tu sexo hombre/mujer: ','');
+            if (sex == 'H') {
+                h++;
+            }
+            else if (sex == "M") {
+                m++;
+            }
+        }
+        if (sex=="H" && edad>=18 && edad<=65){
+            t++;
+        }
+        if (sex=="M" && edad>masvieja){
+            masvieja=edad;
+
+        }
+        if (sex=="H" && edad<masjoven){
+            masjoven=edad;
+            idjoven=num;
+        }
+    } while(num!=0);
+
+    document.write('Total personas '+per+'<br>');
+    document.write('Total hombres '+h+"<br>");
+    document.write('Total mujeres '+m+"<br>");
+    document.write('Total trabajadores hombres entre 18 y 65 años'+t+'<br>');
+    document.write("La mujer mas vieja tiene:"+masvieja+"años<br>");
+    document.write("El numero de identificacion del hombre mas joven es:"+idjoven+"<br>");
+
+</script>
+</body>
+</html>
