@@ -13,18 +13,23 @@
 
     x=1;
 
-    while (x<=5){
-        num =prompt("INTRODUZCA UN NUMERO:");
-        num=parseInt(num);
-        suma=(sueldo+suma);
-        x ++;
-        if (sueldo>=500 && sueldo<=1000) {
+    while (x<=5) {
+        num = prompt("INTRODUZCA UN NUMERO:");
+        num = parseInt(num)%2;
 
-        }
+        x++;
     }
-    document.write("Esta es la media:"," "+suma/5);
-    document.write("<br><br><br>");
-    document.write("Esta es la suma de los salarios:"," "+suma);
+        if (num==0){
+            document.write("El numero PAR es: "+num+"");
+            par=par+1;
+        }
+        else {
+            document.write("El numero IMPAR es: "+num+"");
+            imp=imp+1;
+        }
+        document.write("Pares:"+par+"");
+        document.write("<br>");
+        document.write("Impares: "+imp+"");
 </script>
 
 </body>
