@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act4</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+    <table border="1" width="100%">
+        <tr><td class="td1">0</td></tr>
+        <tr><td class="td1">1</td></tr>
+        <tr><td class="td1">2</td></tr>
+    </table>
+    <table border="1" width="100%">
+        <tr><td class="td2">0</td></tr>
+        <tr><td class="td2">1</td></tr>
+        <tr><td class="td2">2</td></tr>
+    </table>
+    <script>
+        $(document).ready(function(){
+            $(".td1").click(function(){
+                $(this).css("background-color","red");
+            });
+            $(".td2").click(function(){
+                $(this).css("font-size","50px");
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo1</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h2 class="a">Esto es h2 clase A</h2>
+<p id="p1">Esto es otro parrafo1</p>
+<p id="p1">Esto es otro parrafo clase B</p>
+<p class="a" s>Esto es otro parrafo clase A</p>
+<p>Esto es un parrafo normal</p>
+<button id="b1">Esconde todo</button>
+<button id="b2">Solo esconde p1</button>
+<button id="b3">Solo esconde las clases A</button>
+<script>
+    $(document).ready(function(){
+        $("#b1").click(function(){
+            $("p").hide();
+        });
+        $("#b2").click(function() {
+            $("#p1").hide();
+        });
+        $("#b3").click(function() {
+            $(".a").hide();
+        });
+    });
+
+</script>
+
+</body>
+</html>

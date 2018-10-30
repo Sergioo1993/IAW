@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act5</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<h1>Primer elemento H1</h1>
+<h1>Segundo elemento H1</h1>
+<h1>Tercero elemento H1</h1>
+<h1>Cuarto elemento H1</h1>
+<h1>Quinto elemento H1</h1>
+<p>Primer elemento P</p>
+<p>Segundo elemento P</p>
+<p>Tercero elemento P</p>
+<p>Cuarto elemento P</p>
+<p>Quinto elemento P</p>
+<br/>
+<button id="b1">PEQUEÑO</button>
+<button id="b2">MEDIANO</button>
+<button id="b3">GRANDE</button>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function () {
+                $("h1:odd, p:odd").css("font-size","10px");
+
+            });
+            $("#b2").click(function () {
+                $("h1:odd, p:odd").css("font-size","15px");
+
+            });
+            $("#b3").click(function () {
+                $("h1:odd, p:odd").css("font-size","20px");
+
+            });
+        });
+    </script>
+
+</body>
+</html>
