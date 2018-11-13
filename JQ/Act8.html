@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act8</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+        .estiloth {
+            background-color: blue;
+        }
+        .estilotb {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<table border="1" width="100%">
+    <h1>Tabla1</h1>
+    <thead>
+        <tr>
+            <td class="th">thead</td>
+            <td class="th">thead</td>
+            <td class="th">thead</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tb">tbody</td>
+            <td class="tb">tbody</td>
+            <td class="tb">tbody</td>
+        </tr>
+    </tbody>
+</table>
+<button id="b1">VINCULA ESTILOS</button>
+<button id="b2">DESVINCULA ESTILOS</button>
+    <script>
+        $(document).ready(function(){
+
+            $("#b1").click(function () {
+                $(".th").addClass("estiloth");
+            });
+            $("#b1").click(function () {
+                $(".tb").addClass("estilotb");
+            });
+
+            $("#b2").click(function () {
+                $(".th").removeClass("estiloth");
+            });
+            $("#b2").click(function () {
+                $(".tb").removeClass("estilotb");
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act11</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<table border="1" width="100%">
+    <h1>Tabla1</h1>
+    <tr>
+        <td class="td">11111111111111</td>
+        <td class="td">22222222222222</td>
+    </tr>
+    <tr>
+        <td class="td">33333333333333</td>
+        <td class="td">44444444444444</td>
+    </tr>
+</table>
+<script>
+    $(document).ready(function(){
+        $(".td").hover(mouseDentro, mouseFuera);
+
+        function mouseDentro () {
+            $(this).css("backgroundColor","red");
+        }
+
+        function mouseFuera () {
+            $(this).css("backgroundColor","white");
+        }
+
+    });
+</script>
+</body>
+</html>

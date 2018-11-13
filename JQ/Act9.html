@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act9</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<button id="b1">Ver el contenido de HEAD</button>
+<button id="b2">Ver el contenido de BODY</button>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function () {
+                alert("text: " + $ ("head").html())();
+            });
+            $("#b2").click(function () {
+                alert("text: " + $ ("body").html())();
+            });
+
+        });
+    </script>
+</body>
+</html>
