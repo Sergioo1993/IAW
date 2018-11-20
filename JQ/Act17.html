@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act17</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+INPUT <input type="text">
+<script>
+    $(document).ready(function(){
+        $("input").blur(function(){
+            if($(this).val()=="")
+            {
+                alert("EL CAMPO NO DEBE ESTAR VACIO");
+            }
+        });
+    });
+</script>
+</body>
+</html>

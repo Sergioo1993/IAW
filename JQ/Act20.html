@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act20</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+        #mydiv {
+            width: 250px;
+            height: 250px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div  id="mydiv">
+    <p>Parrafo numero 1</p>
+    <p>Parrafo numero 2</p>
+    <p>Parrafo numero 3</p>
+</div>
+<p id="poculto">Parrafo Oculto</p>
+<script>
+    $(document).ready(function(){
+        $("#mydiv").click(function(){
+            $(this).hide(5000, muestrap);
+        });
+    });
+
+    $("#poculto").hide();
+
+    function muestrap(){
+        $("#poculto").show(5000);
+    }
+</script>
+
+</body>
+</html>>

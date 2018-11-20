@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act18</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div id="container">
+
+</div>
+    <button id="bot">CREAR</button>
+
+
+<script>
+    $(document).ready(function() {
+        var num = 0;
+        $("#bot").click(function () {
+            num++;
+            var d = $("<div/>", {id: num});
+            var i = $("<input/>", {type: 'text', value: num});
+            var b = $("<button/>", {
+                class: 'bu', text: "ELIMINAR", click: function () {
+                    $(this).parent().remove();
+                }
+            });
+            var br = $("<br/>");
+            d.append(i, b);
+            $("#container").append(d, br);
+        });
+    });
+</script>
+
+</body>
+</html>
