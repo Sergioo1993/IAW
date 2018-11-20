@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc72bc0-4f98-4e1a-99b3-7ffe990c2c3c" name="Default" comment="Act07">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Libreria.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQ/Act15.html" afterPath="$PROJECT_DIR$/JQ/Act15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JQ/Act21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JQ/Act20.html" afterPath="$PROJECT_DIR$/JQ/Act20.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,28 +118,28 @@
       <file leaf-file-name="Act19.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JQ/Act19.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="84">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Act20.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Act20.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JQ/Act20.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="458">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Act14.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JQ/Act14.html">
+      <file leaf-file-name="Act21.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JQ/Act21.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -198,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS/Act02.html" />
         <option value="$PROJECT_DIR$/JS/Act03.html" />
         <option value="$PROJECT_DIR$/JS/Act04.html" />
         <option value="$PROJECT_DIR$/JS/Pruebafuncion.html" />
@@ -249,6 +242,7 @@
         <option value="$PROJECT_DIR$/JQ/Act18.html" />
         <option value="$PROJECT_DIR$/JQ/Act19.html" />
         <option value="$PROJECT_DIR$/JQ/Act20.html" />
+        <option value="$PROJECT_DIR$/JQ/Act21.html" />
       </list>
     </option>
   </component>
@@ -340,7 +334,7 @@
       <workItem from="1542125157675" duration="9653000" />
       <workItem from="1542302976517" duration="21000" />
       <workItem from="1542390836165" duration="599000" />
-      <workItem from="1542729640958" duration="7605000" />
+      <workItem from="1542729640958" duration="8295000" />
     </task>
     <task id="LOCAL-00001" summary="Act01">
       <created>1538228594513</created>
@@ -381,7 +375,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109366000" />
+    <option name="totallyTimeSpent" value="110056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -426,13 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/Act03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS/Pruebafuncion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -766,15 +753,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JQ/Act19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="84">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JQ/Act20.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
+        <state relative-caret-position="458">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JQ/Act21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
