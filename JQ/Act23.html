@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act23</title>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<a class="link" href="www.google.es">www.google.es</a>
+<br><br>
+<a class="link" href="www.google.com">www.google.com</a>
+<br><br>
+<a class="link" href="www.youtube.com">www.youtube.com</a>
+<br><br>
+<a class="link" href="www.youtube.es">www.youtube.es</a>
+<br><br>
+<button onclick="myFunction()">Prueba</button>
+<br><br>
+<p id="demo"></p>
+<script>
+    $(document).ready(function(){
+
+        function myFunction() {
+            var aa = <a class="link" href="www.google.es">www.google.es</a>
+                <br><br>
+                <a class="link" href="www.google.com">www.google.com</a>
+                <br><br>
+                <a class="link" href="www.youtube.com">www.youtube.com</a>
+                <br><br>
+                <a class="link" href="www.youtube.es">www.youtube.es</a> ;
+
+            var n = aa.indexOf(".es");
+
+            document.getElementById("demo").innerHTML = n;
+        }
+
+    });
+</script>
+</body>
+</html>

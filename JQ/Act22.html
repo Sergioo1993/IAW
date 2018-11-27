@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act22</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<table border="1" width="100%">
+    <h1>Tabla1</h1>
+    <tr>
+        <td class="td"><button>FILA 1 COLUMNA 1</button><img src="favicon.png" class="bu"></td>
+        <td class="td1"><button>FILA 1 COLUMNA 2</button><img src="favicon.png" class="bu1"></td>
+    </tr>
+</table>
+<script>
+    $(document).ready(function(){
+        $(".td").click(function(){
+            $(".bu").toggle()
+        });
+        $(".td1").click(function(){
+            $(".bu1").toggle()
+        });
+    });
+</script>
+</body>
+</html>
