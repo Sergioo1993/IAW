@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act21</title>
+</head>
+<body>
+
+<form>
+    Introduzca una contraseña: <input type="password" id="pass1"><br/>
+    Repita la contraseña: <input type="password" id="pass2"><br/>
+
+    <input type="button" value="Enter" onClick="check()">
+</form>
+
+<script type="text/javascript">
+
+    function check(){
+        var p1=document.getElementById('pass1').value;
+        var p2=document.getElementById('pass2').value;
+        if (p1==p2){alert('Las contraseñas coinciden')}
+        else alert('Las contraseñas no coinciden')
+    }
+</script>
+
+</body>
+</html>

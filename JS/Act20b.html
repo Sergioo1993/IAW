@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act20b</title>
+</head>
+<body>
+
+<form>
+    Introduzca un numero: <input type="Float" id="n1"><br/>
+    Introduzca un numero: <input type="Float" id="n2"><br/>
+
+    <input type="button" value="button" onClick="bigger()">
+</form>
+<script type="text/javascript">
+
+    function bigger(){
+        var resultado=0;
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+        if (n1>n2){resultado=n1}
+        else {resultado=n2};
+
+
+        alert('El numero mas grande es: ' + resultado);
+
+    }
+</script>
+
+</body>
+</html>

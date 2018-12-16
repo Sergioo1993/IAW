@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act26</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    function passwd(control){
+        var psw="";
+        var psw=document.getElementById('password').value;
+        if (psw.length < 7 || psw.length>20){
+            alert("La contraseña tiene menos de 7 caracteres o mas de 20")
+        }
+        else alert("La contraseña cumple con los requisitos")
+    }
+
+
+
+</script>
+
+<form>
+
+    correo <input type="text" id="nombre"><br>
+
+    password <input type="password" id="password" onFocus="pasw()" >
+    <br>
+    <input type="button" value="check" onClick="passwd()">
+</form>
+</body>
+</html>

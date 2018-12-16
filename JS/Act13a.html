@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act13a</title>
+</head>
+<body>
+<script type="text/javascript">
+    i=0;
+    numero=0;
+    n1=0;
+    n2=0;
+    n3=0;
+
+
+    n1=prompt('Introduzca el numero 1:','');
+    n1=parseFloat(n1);
+
+    n2=prompt('Introduzca el numero 2:','');
+    n2=parseFloat(n2);
+
+    n3=prompt('Introduzca el numero 3:','');
+    n3=parseFloat(n3);
+
+    function minimo(n1,n2,n3)
+
+    {
+
+        if (n1<n2&& n1<n3)  return n1 ;
+
+        else if(n2<n1 && n2<n3) return n2;
+
+        else  return n3;
+
+    }
+
+    numero=minimo(n1,n2,n3);
+    document.write('El numero minimo es:'+numero)
+
+
+
+
+
+</script>
+</body>
+</html>

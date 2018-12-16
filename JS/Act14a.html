@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act14a</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function suma(numero1,numero2){
+
+        this.num1=numero1;
+        this.num2=numero2;
+
+        this.loadNum1 =loadNum1;
+
+        function loadNum1(n1){
+            this.num1 =n1;
+        }
+
+        this.loadNum2 =loadNum2;
+
+        function loadNum2(n2){
+            this.num2 =n2;
+        }
+
+        this.resultado =resultado;
+
+        function resultado(){
+            return (this.num1+this.num2);
+        }
+
+    }
+    var suma1=new suma(10,5);
+    document.write('La suma es:'+suma1.resultado()+'<br>');
+
+    suma1.loadNum1(5);
+    suma1.loadNum2(15);
+    document.write('La suma es:'+suma1.resultado()+'<br>');
+</script>
+
+
+</body>
+</html>

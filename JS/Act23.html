@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act23</title>
+</head>
+<body>
+
+<form>
+    <input type="checkbox" id="checkbox1">Football
+    <br>
+    <input type="checkbox" id="checkbox2">Tennis
+    <br>
+    <input type="checkbox" id="checkbox3">Karate
+    <br>
+    <input type="button" value="Count" onClick="countSelected()">
+</form>
+
+<script type="text/javascript">
+
+    function countSelected() {
+        var d1="";
+        var d2="";
+        var d3="";
+
+        if (document.getElementById('checkbox1').checked) {
+            d1="Football";
+        }
+        if (document.getElementById('checkbox2').checked) {
+            d2="Tennis";
+        }
+        if (document.getElementById('checkbox3').checked) {
+            d3="Karate1";
+        }
+
+        alert('Deportes seleccionados ' +d1+ ' '+d2+' '+d3+'.');
+    }
+</script>
+
+</body>
+</html>

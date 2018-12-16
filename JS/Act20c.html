@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act20c</title>
+</head>
+<body>
+<form>
+    Introduzca su nombre: <input type="text" id="n1"><br/>
+    Introduzca su apellido: <input type="text" id="n2"><br/>
+
+    <input type="button" value="Button" onClick="NC()">
+</form>
+<script type="text/javascript">
+
+    function NC(){
+        var r=0;
+        var n1=document.getElementById('n1').value;
+        var n2=document.getElementById('n2').value;
+
+        r=n1 +" "+n2
+
+
+        alert('El nombre completo es: ' + r);
+
+    }
+</script>
+
+</body>
+</html>

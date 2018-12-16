@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+
+        var libros = new Array();
+
+        $(document).ready(funtion(){
+
+
+            $("b1#").click(function () {
+                var t = $("#title").val();
+                var p = $("#pages").val();
+                var c = $("#cats").val();
+                var col = $("#col").val();
+                var row = $("#row").val();
+
+                var ocupat = false;
+                for(var i=0; i<libros.length; i++){
+                    libro l = libros[i];
+                    if(l.columna == col && l.fila == row){
+                        ocupat=true;
+                        break;
+                    }
+                }
+
+                var l = new libro (t,p,c,col,row);
+                libros.push(l);
+            })
+        })
+
+        function libro(titulo, nump, categoria, col, fila){
+            this.titulo = titulo;
+            this.numpaginas = nump;
+            this.categoria = categoria;
+            this.columnas = col;
+            this.fila = fila;
+
+            this.mostrar = mostrarlibro;
+
+            function mostrarlibro() {
+                alert(this.titol+" "+this.numpagias);
+            }
+        }
+
+    </script>
+</head>
+<style>
+    td { text-align:center;}
+</style>
+<body>
+TITLE: <input type="text" id="title" /><br/>
+NUM.PAGES: <input type="text" id="pages" /><br/>
+CATEGORY:
+<select id="cats">
+    <option value="CLASSIC">CLASSIC</option>
+    <option value="SCIENCE">SCIENCE</option>
+    <option value="SPORTS">SPORTS</option>
+    <option value="COMEDY">COMEDY</option>
+</select> <br/>
+POSITION (COL / ROW):
+<select id="col">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select> /
+<select id="row">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select> <br/>
+<button id="b1">ADD BOOK</button>
+<button id="b2">REMOVE BOOK</button>
+<button id="b3">PRINT ALL BOOKS</button>
+<button id="b4">PRINT LIBRARY</button>
+<button id="b5">NUM BOOKS</button>
+<hr/>
+<div id="printer"></div>
+</body>
+</html>

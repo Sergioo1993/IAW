@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act15</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function showTerm(){
+        var hoy = new Date();
+        var month = hoy.getMonth()+1;
+
+
+        alert (month);
+
+        if (month <=3)
+            return "1º"
+
+        else if (month > 3 && month <= 6)
+            return "2º"
+
+        else if (month > 6 &&month <= 9)
+            return "3º"
+
+        else if (month > 9 && month <= 12)
+            return "4º"
+
+
+    }
+
+    var trimestre="";
+    var trimestre= showTerm();
+
+    document.write (trimestre+"")
+</script>
+
+</body>
+</html>

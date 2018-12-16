@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act25</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function checkNumChars(){
+        var usuario="";
+        var correo="";
+        var comentario="";
+
+        var usuario=document.getElementById('usuario').value;
+        var correo=document.getElementById('correo').value;
+        var comentario=document.getElementById('comentario').value;
+
+        alert("El user name es  : "+usuario);
+        alert("El correo es  : "+correo);
+        alert("comentarios  : "+comentario);
+    }
+</script>
+<form>
+    <textarea id="usuario" rows="1" cols="15" ></textarea> <br/>
+    <textarea id="correo" rows="1" cols="15" ></textarea> <br/>
+    <textarea id="comentario" rows="5" cols="20" ></textarea> <br/>
+
+
+    <input type="button" value="Check" onClick="checkNumChars()">
+
+</form>
+</body>
+</html>

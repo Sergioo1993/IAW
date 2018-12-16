@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act12</title>
+</head>
+<body>
+<script type="text/javascript">
+    var altura=0;
+    var base=0;
+    var a=0;
+    var b=0;
+
+    for(y=1;y<=3;y++) {
+
+        altura=prompt('Altura del triangulo :','');
+        altura=parseFloat(altura);
+
+        base=prompt("Base del triangulo");
+        base=parseFloat(base);
+
+        a=base*altura/2;
+        document.write("el area es: "+a+"<br>")
+
+        if (a > 12){
+            b++
+        }
+
+
+    }
+    document.write("El numero de los triangulos con area mayor que 12 son "+b+"")
+</script>
+</body>
+</html>

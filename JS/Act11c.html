@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act11c</title>
+</head>
+<body>
+<script type="text/javascript">
+    var cuenta=0;
+    var cliente="";
+    var dinero=0;
+    var total =0;
+
+    do {
+
+        cliente=prompt('introduzca su nombre :','');
+
+        cuenta=prompt('introduzca su numero de cuenta :','');
+        cuenta=parseInt(cuenta);
+
+        dinero=prompt('introduzca el dinero que tiene :','');
+        dinero=parseInt(dinero);
+
+        total=total+dinero;
+
+
+        document.write("el cliente "+cliente+" con numero de cuenta: "+cuenta+"  tiene "+dinero+"€ <br>");
+        document.write("el banco tiene "+total+"€ en la bolsa<br> ")
+    } while(cliente!="asdzxc");
+</script>
+</body>
+</html>

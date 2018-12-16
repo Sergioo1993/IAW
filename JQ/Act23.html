@@ -6,35 +6,28 @@
     <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
-<a class="link" href="www.google.es">www.google.es</a>
+<div id="div">
+<a class="a" href="www.google.es">www.google.es</a>
 <br><br>
-<a class="link" href="www.google.com">www.google.com</a>
+<a class="a" href="www.google.com">www.google.com</a>
 <br><br>
-<a class="link" href="www.youtube.com">www.youtube.com</a>
+<a class="a" href="www.youtube.com">www.youtube.com</a>
 <br><br>
-<a class="link" href="www.youtube.es">www.youtube.es</a>
+<a class="a" href="www.youtube.es">www.youtube.es</a>
 <br><br>
-<button onclick="myFunction()">Prueba</button>
-<br><br>
-<p id="demo"></p>
+</div>
+
 <script>
     $(document).ready(function(){
+        $("#div a").click(function () {
+            $(".a").each(sel)
+            
+        });
 
-        function myFunction() {
-            var aa = <a class="link" href="www.google.es">www.google.es</a>
-                <br><br>
-                <a class="link" href="www.google.com">www.google.com</a>
-                <br><br>
-                <a class="link" href="www.youtube.com">www.youtube.com</a>
-                <br><br>
-                <a class="link" href="www.youtube.es">www.youtube.es</a> ;
-
-            var n = aa.indexOf(".es");
-
-            document.getElementById("demo").innerHTML = n;
+        function () {
+            
         }
-
-    });
+        });
 </script>
 </body>
 </html>

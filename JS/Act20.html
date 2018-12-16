@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act20</title>
+</head>
+<body>
+
+<form>
+    Introduzca un numero: <input type="Float" id="numero"><br/>
+
+    <input type="button" value="square" onClick="raiz()">
+</form>
+
+<script type="text/javascript">
+
+    function raiz(){
+        var n=document.getElementById('numero').value;
+        n=Math.sqrt(n)
+        alert('la raizcuadrada es :' + n);
+
+    }
+</script>
+
+</body>
+</html>

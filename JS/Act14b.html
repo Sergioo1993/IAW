@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act14b</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function persona(nombre,edad){
+
+        this.nombre=nombre;
+        this.edad=edad;
+
+    }
+
+    function empresa(nombre,edad){
+
+        this.nombre=nombre;
+        this.edad =edad;
+
+        this.puedeTrabajar=puedeTrabajar;
+
+        function puedeTrabajar(persona){
+            return (persona.edad<this.edad);
+        }
+
+    }
+
+    var persona1=new persona("Pepe",38);
+    var persona2=new persona("Tomas",20);
+
+    var empresa1=new empresa("programacion",60);
+
+
+
+    var nt=0;
+    if(empresa1.puedeTrabajar(persona1)) { nt++;}
+    if(empresa1.puedeTrabajar(persona2)) { nt++;}
+
+
+
+
+    document.write("en la empresa "+empresa1.nombre+" pueden trabajar "+nt+" trabajadores <br>");
+
+</script>
+</body>
+</html>
