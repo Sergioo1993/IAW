@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act22</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function pizza() {
+        var sel=document.getElementById('select1');
+
+        document.getElementById('text2').value=sel.options[sel.selectedIndex].text;
+        document.getElementById('text3').value=sel.options[sel.selectedIndex].value;
+    }
+
+</script>
+
+<form>
+    <select id="select1" onChange="pizza()">
+
+        <option value="">Elige una Pizza</option>
+        <option value="6.00">Pepperoni</option>
+        <option value="5.00">Quatro Formaggi</option>
+        <option value="4.00">Procciuto</option>
+    </select>
+
+</body>
+</html>

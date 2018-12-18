@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act22c</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function pizza() {
+        var sel=document.getElementById('select1');
+        document.getElementById('text3').value=sel.options[sel.selectedIndex].value;
+
+    }
+    function total(){
+
+        var p=document.getElementById('text3').value;
+        var c=document.getElementById('text4').value;
+        var tt=parseInt(p)* parseInt(c);
+        alert("total es: "+tt);
+    }
+
+</script>
+
+<form>
+    <select id="select1" onChange="pizza()">
+        <option value="">Elige una Pizza</option>
+        <option value="6.00">Pepperoni</option>
+        <option value="5.00">Quatro Formaggi</option>
+        <option value="4.00">Procciuto</option>
+    </select>
+
+    <br>
+
+
+    precio:<input type="text" id="text3"><br>
+    cantidad:<input type="text" id="text4"><br>
+
+
+    <input type="button" onClick="total()" value="total">
+
+
+</form>
+</body>
+</html>

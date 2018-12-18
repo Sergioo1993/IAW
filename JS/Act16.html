@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act16</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    var numeros;
+
+    numeros=new Array(1,2,3,4,5,6,7,8);
+
+
+    function suma(x) {
+
+        var total=0;
+        for (var i=0; i< x.length;i++){
+            total+=x[i];
+        }
+        return total;
+    }
+
+    function porcentage(x){
+        return suma(x)/x.length;
+    }
+
+    function sumaMayor5(x) {
+
+        var total=0;
+        for (var i=0; i< x.length;i++){
+
+            if (x[i]>=5){total+=x[i]}
+
+        }
+        return total;
+    }
+
+    function numMayor5(x) {
+
+        var M5=0;
+        for (var i=0; i< x.length;i++){
+
+            if (x[i]>5){M5++}
+
+        }
+        return M5;
+    }
+
+
+    document.write("resultado de la suma "+suma(numeros)+"<br>");
+    document.write("la media es  "+porcentage(numeros)+"<br>");
+    document.write("la la suma de los valores mayores que 5 es  "+sumaMayor5(numeros)+"<br>");
+    document.write("hay "+numMayor5(numeros)+" numeros mayores que 5<br>");
+
+</script>
+
+</body>
+</html>

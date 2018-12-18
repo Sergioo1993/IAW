@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act16b</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    n1=prompt('ingrese un numero para crear el array:','');
+    n1=parseInt(n1);
+
+    n2=prompt('ingrese el valor de la primera posicion:','');
+    n2=parseInt(n2);
+
+    n3=prompt('ingrese el valor de la segunda poscion:','');
+    n3=parseInt(n3);
+
+    array=new Array(n1);
+
+
+    if (n1>2){for (i=0;i<array.length;i++){array[i]=2}}
+
+    array[0]=n2;
+    array[1]=n3;
+
+    function suma(s) {
+
+        var total=0;
+        for (var i=0; i< s.length;i++){
+            total+=s[i];
+        }
+        return total;
+    }
+
+    for (i=0;i<array.length;i++){
+        document.write(array[i] + " es el contenido del array <br> ");
+
+    }
+    document.write("la suma del array es: "+suma(array)+"<br>");
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act22b</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function precio(){
+        var p =document.getElementById('procesador').value;
+        var p2 =document.getElementById('pantalla').value;
+        var hd =document.getElementById('HD').value;
+
+        p = parseInt(p);
+        p2 = parseInt(p2);
+        hd = parseInt(hd);
+
+        var sum = p + p2 + hd;
+
+        document.getElementById('costo').value=sum;
+    }
+
+
+</script>
+
+<form>
+    <select id="procesador">
+        <option value=""></option>
+        <option value="400">i3</option>
+        <option value="600">i5</option>
+        <option value="800">i7</option>
+    </select>
+
+    <br>
+
+
+    <select id="pantalla">
+        <option value=""></option>
+        <option value="250">samsung 20 pulgadas</option>
+        <option value="350">samsung 22 pulgadas</option>
+        <option value="550">samsung 26 pulgadas</option>
+    </select>
+
+
+    <br>
+
+    <select id="HD">
+        <option value=""></option>
+        <option value="300">de 500GB</option>
+        <option value="440">de 1TB</option>
+        <option value="500">de 3TB</option>
+    </select>
+
+    <br>
+
+    <input type="button" value="resultado" onClick="precio()">
+    <input type="text" id="costo"><br>
+
+
+</form>
+</body>
+</html>

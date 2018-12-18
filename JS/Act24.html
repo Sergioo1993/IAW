@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act24</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function showSelected() {
+        if (document.getElementById('radio1').checked) {
+            alert('usted puede continuar');
+        }
+        else if (document.getElementById('radio2').checked) {
+            alert('usted no puede continuar porque es menor de edad ');
+        }
+
+    }
+</script>
+<form>
+    <input type="radio" id="radio1" name="A">Older <br/>
+    <input type="radio" id="radio2" name="B">Younger <br/>
+
+    <input type="button" value="Mostrar" onClick="showSelected()">
+</form>
+</body>
+</html>

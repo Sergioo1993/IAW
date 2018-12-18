@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Act22d</title>
+</head>
+<body>
+<script type="text/javascript">
+
+
+    var tt=0;
+
+    function nota(){
+        var tt=0;
+
+        var p=document.getElementById('selecp1').value;
+        if(p=="b"){tt=tt+1};
+
+        var p2=document.getElementById('selecp2').value;
+        if(p2=="b"){tt=tt+1};
+
+        var p3=document.getElementById('selecp3').value;
+        if(p3=="b"){tt=tt+1};
+
+        var p4=document.getElementById('selecp4').value;
+        if(p4=="b"){tt=tt+1};
+
+        alert("la nota es: "+tt );
+    }
+
+</script>
+
+<form>
+
+¿Cuánto es 2 + 2? <select id="selecp1" ">
+<option value="m">22</option>
+<option value="m">3</option>
+<option value="b">4</option>
+<option value="m">1</option>
+</select> <br><br>
+
+¿Cuántas vidas tiene un gato? <select id="selecp2" ">
+<option value="m">1</option>
+<option value="b">7</option>
+<option value="m">9</option>
+<option value="m">8</option>
+</select> <br><br>
+
+¿Cuánto pesa 1 kilo de hierro? <select id="selecp3" ">
+<option value="b">1 kilo</option>
+<option value="m">no sé</option>
+<option value="m">eso no existe</option>
+<option value="m">200 gramos</option>
+</select> <br><br>
+
+¿Gokú o Vegeta? <select id="selecp4" ">
+<option value="m">Vegeta</option>
+<option value="m">Los dos</option>
+<option value="m">Ninguno</option>
+<option value="b">Gokú</option>
+</select> <br><br>
+
+
+
+<input type="button" onClick="nota()" value="corregir">
+
+</form>
+</body>
+</html>
