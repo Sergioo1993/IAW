@@ -13,18 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bootstrap2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Bootstrap2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +60,8 @@
         <option value="$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/BOOTSTRAP.html" />
         <option value="$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Bootstrap3.html" />
         <option value="$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Bootstrap2.html" />
+        <option value="$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/PExamenBoot.html" />
+        <option value="$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Examen-Boot-1.html" />
       </list>
     </option>
   </component>
@@ -136,11 +127,13 @@
       <workItem from="1545165163525" duration="673000" />
       <workItem from="1545244207377" duration="11317000" />
       <workItem from="1547141954802" duration="5148000" />
+      <workItem from="1548350917689" duration="4803000" />
+      <workItem from="1548956247333" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25852000" />
+    <option name="totallyTimeSpent" value="30710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,20 +194,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Act25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Act26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Act28.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -523,9 +502,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-935">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="95" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/PExamenBoot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1087">
+          <caret line="92" column="7" lean-forward="false" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Examen-Boot-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -533,15 +523,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="215" lean-forward="false" selection-start-line="6" selection-start-column="215" selection-end-line="6" selection-end-column="215" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Aplicaciones/HTML/Pagina/Bootstrap2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="-222">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
